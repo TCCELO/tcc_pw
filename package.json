@@ -1,0 +1,19 @@
+{
+  "name": "tcc_pw",
+  "version": "1.0.0",
+  "description": "TCC",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TCCELO/tcc_pw.git"
+  },
+  "author": "Felipe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TCCELO/tcc_pw/issues"
+  },
+  "homepage": "https://github.com/TCCELO/tcc_pw#readme"
+}

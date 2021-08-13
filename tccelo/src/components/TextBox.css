@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Roboto:wght@400;700&display=swap');
+.texts {
+    margin: 0px 0px 0px 6%;
+}
+.homeHeadline {
+    font-family: 'Inter', sans-serif;
+    font-size: 70px;
+    font-weight: 600;
+}
+.noFill {
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #fff;
+    -webkit-text-fill-color: #1A1A1E;
+}
+.homeSubHeadline {
+    font-family: 'Inter', sans-serif;
+    color: #838383;
+}
+
+
+
+
+
+
+
+/*
+    Overflow-x:hidden;
+*/
