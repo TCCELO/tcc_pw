@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Roboto:wght@400;700&display=swap');
+
+.menu{
+    display: flex;
+    flex-basis: 1000px;
+    background-color: transparent;
+    align-items: center;
+}
+.logo {
+    text-decoration:none;
+    font-size: 18px;
+    color:#FFB422;
+    font-weight: 600;
+    margin-left: 8.7%;
+}
+.login {
+    flex:1;
+    color:#838383;
+    text-decoration:none;
+    font-size: 11.5px;
+    transition: all ease 0.2s;
+    margin-left: 37%;
+   
+}
+.news {
+    flex:1;
+    color:#fff;
+    text-decoration:none;
+    font-size: 11.5px;
+    transition: all ease 0.2s;
+    margin-left: 7%;
+    
+}
+.noti {
+    flex:1;
+    color:#fff;
+    text-decoration:none;
+    font-size: 11.5px;
+    transition: all ease 0.2s;
+    
+}
+.notifications{
+    border:2px solid #FFB422;
+    border-radius:50%;
+    margin-left: 0.7%;
+    padding-bottom: 0.3%;
+    padding-inline: 1.15%;
+    align-items: center;
+    color:#fff;
+}
+.menu nav{
+    
+    align-items: center;
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    margin-top: 5vh;
+}
+.menu ul{
+    margin-left: 32.5%;
+    list-style:none;
+    display: flex;
+}
+.menu li{
+    position: relative;
+    display: flex;
+    font-weight: regular;
+    float: none;
+    margin-left: 15.7vh;
+    
+}
+.menu li a{
+    flex:1;
+    color:#838383;
+    text-decoration:none;
+    padding:0;
+    font-size: 11.5px;
+    transition: all ease 0.2s;
+}
+.menu li a:hover{
+    color:#fff;
+    transform: scale(1.1);
+}
+.login:hover{
+    color:#fff;
+    transform: scale(1.1);
+}

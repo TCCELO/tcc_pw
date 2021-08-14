@@ -5,17 +5,9 @@ export default () => {
   return (
     <div className="texts">
         <div className="homeHeadline">
-            <table>
-                <tr>
-                    <td>Facilidade</td>
-                </tr>
-                <tr className="noFill">
-                    <td>Versatilidade</td>
-                </tr>
-                <tr>
-                    <td>Segurança</td>
-                </tr>
-            </table>
+            <p>Facilidade</p>
+            <p id="noFill">Versatilidade</p>
+            <p>Segurança</p>
         </div>
         <div className="homeSubHeadline">
             Nunca falta algo ou alguém para o seu esporte <br/>

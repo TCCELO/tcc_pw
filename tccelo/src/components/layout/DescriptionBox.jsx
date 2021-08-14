@@ -3,14 +3,14 @@ import './DescriptionBox.css';
 
 export default () => {
   return (
-    <div>
+    <div className="descricao">
         <hr/>
         <table>
-            <tr>
-                <td>DISPONÍVEL EM</td>
-                <td>A PARTIR DE</td>    
+            <tr id="line1">
+                <td id="column1">DISPONÍVEL EM</td>
+                <td id="column1">A PARTIR DE</td>    
             </tr>
-            <tr>
+            <tr id="line2">
                 <td>Android<br/>IOS</td>   
                 <td>27/11/2021</td> 
             </tr>
