@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react';
-import './App.css';
-import TextBox from '../components/TextBox';
-import DescriptionBox from '../components/DescriptionBox';
-import CreateAccount from '../components/CreateAccount';
-import Menu from '../components/layout/Menu';
+import './Home.css';
+import TextBox from '../../components/TextBox';
+import DescriptionBox from '../../components/DescriptionBox';
+import CreateAccount from '../../components/CreateAccount';
+import Menu from '../../components/layout/Menu';
 
 export default () => {
   return (
