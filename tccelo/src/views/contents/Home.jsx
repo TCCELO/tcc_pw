@@ -1,25 +1,43 @@
-import React, { useEffect, useState } from 'react';
-import './Home.css';
+import * as React from 'react';
 import TextBox from '../../components/TextBox';
 import DescriptionBox from '../../components/DescriptionBox';
 import CreateAccount from '../../components/CreateAccount';
-import Menu from '../../components/layout/Menu';
 
-export default () => {
+
+var i;
+var styles = {
+  body: {
+      backgroundColor: '#1A1A1E',
+      color: '#ffffff',
+      margin: 0,
+      fontFamily: 'Roboto'
+  }
+} 
+
+export default class App extends React.Component {
+  componentDidMount(){
+    for(i in styles.body){
+        document.body.style[i] = styles.body[i];
+    }
+}
+componentDidUnmount(){
+    for(i in styles.body){
+        document.body.style[i] = null;
+    }
+}
+render (){
   return (
-    <div className="page">
-      <section className="Menu">
-        <Menu/>
-      </section>
-      <section className="Textbox">
-        <TextBox/>
-      </section>
-      <section classname="DescriptionBox">
-        <DescriptionBox/>
-      </section>
-      <section className="CreateAccount">
-        <CreateAccount/>
-      </section>
-    </div>
-  );
+  <div className="page">
+  <section className="Textbox">
+    <TextBox/>
+  </section>
+  <section classname="DescriptionBox">
+    <DescriptionBox/>
+  </section>
+  <section className="CreateAccount">
+    <CreateAccount/>
+  </section>
+  
+</div>);
+}
 }

@@ -1,25 +1,16 @@
 import React, { useEffect, useState } from 'react';
-import './App.css';
-import TextBox from '../components/TextBox';
-import DescriptionBox from '../components/DescriptionBox';
-import CreateAccount from '../components/CreateAccount';
+/*import './App.css';*/
+import { BrowserRouter as Router } from 'react-router-dom'
+import Content from '../components/layout/Content';
 import Menu from '../components/layout/Menu';
 
-export default () => {
+export default (props) => {
   return (
     <div className="page">
-      <section className="Menu">
+      <Router>
         <Menu/>
-      </section>
-      <section className="Textbox">
-        <TextBox/>
-      </section>
-      <section classname="DescriptionBox">
-        <DescriptionBox/>
-      </section>
-      <section className="CreateAccount">
-        <CreateAccount/>
-      </section>
+        <Content/>
+      </Router>
     </div>
   );
 }

@@ -1,5 +1,6 @@
 import React from 'react';
 import './Menu.css';
+import { Link, NavLink} from 'react-router-dom'
 
 export default (props) => {
   return (
@@ -9,16 +10,16 @@ export default (props) => {
         <ul>
             
             <li>
-                <a href="#">Home</a>
+                <NavLink activeStyle={{ color: 'white' }} exact to="/">Home</NavLink>
             </li>
             <li>
-                <a href="#">Planos</a>
+                <NavLink activeStyle={{ color: 'white' }} to="/Planos">Planos</NavLink>
             </li>
             <li>
-                <a href="#">Sobre</a>
+                <NavLink activeStyle={{ color: 'white' }} to="/Sobre">Sobre</NavLink>
             </li>
             <li>
-                <a href="#">Suporte</a>
+                <NavLink activeStyle={{ color: 'white' }} to="/Suporte">Suporte</NavLink>
             </li>
         </ul>    
         <a class="login" href="#">Entrar</a>

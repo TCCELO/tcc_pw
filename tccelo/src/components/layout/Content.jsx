@@ -1,16 +1,23 @@
 import React from 'react';
-import './Content.css';
-
+import { Switch, Route } from 'react-router';
 import Home from'../../views/contents/Home';
 import About from'../../views/contents/About';
 import NotFound from'../../views/contents/NotFound';
 
-export default () => {
+export default (props) => {
   return (
     <main className="Content">
-      <Home/>
-      <About/>
-      <NotFound/>
+      <Switch>
+        <Route exact path="/">    
+            <Home/>
+        </Route>
+        <Route path="/Sobre">    
+            <About/>
+        </Route>
+        <Route path="*">    
+            <NotFound/>
+        </Route>
+      </Switch>
     </main>
   );
 }  
