@@ -1,5 +1,6 @@
 import React from 'react';
 import './LeadTwo.css';
+import athleticmanstretching from '../../athleticmanstretching.jpg';
 
 export default () => {
   return (
@@ -7,7 +8,7 @@ export default () => {
         <table>
             <tr id="leadTwoContent">
                 <td id="imageLeadTwo">
-                <img src="../../athleticmanstretching.jpg" alt="AthleticMen"/> 
+                  <img src={athleticmanstretching} alt="AthleticMen"/> 
                 </td> 
                 <td id="descriptionLeadTwo">
                     <p id="titleLead">Funcionalidades</p>

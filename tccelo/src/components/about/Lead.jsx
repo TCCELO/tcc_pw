@@ -1,5 +1,6 @@
 import React from 'react';
 import './Lead.css';
+import AthleticManNInHoodie from '../../athleticmaninhoodie.jpg';
 
 export default () => {
   return (
@@ -11,7 +12,7 @@ export default () => {
                     <p>A criação do ELO tem como objetivo promover a prática de esportes e atividades físicas, além de integrar pessoas e incentivar o contato social, principalmente no período decorrente da pandemia e do isolamento.</p>
                 </td> 
                 <td id="imageLead">
-                    <img src={require('../../athleticmaninhoodie.jpg')} alt="HoodieMan"/>    
+                    <img src={AthleticManNInHoodie} />    
                 </td>   
             </tr>
         </table>

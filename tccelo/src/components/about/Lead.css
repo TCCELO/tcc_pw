@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap');
+
+.lead{
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+.lead table{
+    margin: 12.7% 3.7% 0px 9.5%;
+}
+#descriptionLead{
+    padding-right: 18%;    
+}
+.lead table tr td img{
+    width: 449px;
+    height: 673px;
+}

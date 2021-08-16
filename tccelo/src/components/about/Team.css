@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap');
+
+.team{
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    color:#000;
+    font-size: 21px;
+    line-height: 5px;
+}
+.teamTitle{
+    margin: 23.6% 0px 0px 9.5%;
+    font-size: 58px;
+}
+.team table{
+    margin:auto;
+}
+#name{
+    font-weight: 600;
+}
+#office{
+    font-weight: 400;
+}
+.team table tr td{
+    margin-top: 0px;
+}
+.team table tr td img{
+    width: 380px;
+    height: 600px; 
+    transform: scale(0.9);
+}
+
+#cfname{
+    padding-left: 1.7%;
+}
+#cmname{
+    padding-left: 1.7%;
+}
+#fqname{
+    padding-left: 1.7%
+}

@@ -28,22 +28,19 @@ componentDidUnmount(){
 render (){
   return (
     <div className="pageTwo">
-      <div className="page">
-  <section className="Headline">
-    <Headline/>
-  </section>
-  <section classname="Lead">
-    <Lead/>
-  </section>
-  <section className="LeadTwo">
-    <LeadTwo/>
-  </section>
-  <section className="Team">
-    <Team />
-  </section>
-  
-</div>
-    </div>
+      <section className="Headline">
+        <Headline/>
+      </section>
+      <section classname="Lead">
+        <Lead/>
+      </section>
+      <section className="LeadTwo">
+        <LeadTwo/>
+      </section>
+      <section className="Team">
+        <Team />
+      </section>
+        </div>
   );
 }
 }

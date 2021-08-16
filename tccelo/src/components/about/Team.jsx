@@ -1,5 +1,8 @@
 import React from 'react';
 import './Team.css';
+import Camily from '../../camily.jpg';
+import Camila from '../../camila.jpg';
+import Felipe from '../../felipe.jpg';
 
 export default () => {
   return (
@@ -9,28 +12,28 @@ export default () => {
         </div>
         <table>
             <tr id="imgCreators">
-                <td>
-                    <img src="../../camily.jpg" alt="Camily"/>   
+                <td id="cfimg">
+                    <img src={Camily} alt="Camily"/>   
                 </td> 
-                <td>
-                    <img src="../../camila.jpg" alt="Camila"/>   
+                <td id="cmimg">
+                    <img src={Camila} alt="Camila"/>   
                 </td> 
-                <td>
-                    <img src="../../felipe.jpg" alt="Felipe"/>   
+                <td id="fqimg">
+                    <img src={Felipe} alt="Felipe"/>   
                 </td>
             </tr>
             <tr id="infoCreators">
-                <td>
-                    <p id="name"></p>
-                    <p id="office"></p>
+                <td id="cfname">
+                    <p id="name">Camily França</p>
+                    <p id="office">Estudante</p>
                 </td> 
-                <td>
-                    <p id="name"></p>
-                    <p id="office"></p>
+                <td id="cmname">
+                    <p id="name">Camila Moraes</p>
+                    <p id="office">Estudante</p>
                 </td> 
-                <td>
-                    <p id="name"></p>
-                    <p id="office"></p>
+                <td id="fqname">
+                    <p id="name">Felipe Queiroz</p>
+                    <p id="office">Estudante</p>
                 </td> 
             </tr>
         </table>
