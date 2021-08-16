@@ -1,13 +1,16 @@
 import * as React from 'react';
-
+import Headline from '../../components/about/Headline';
+import Lead from '../../components/about/Lead';
+import LeadTwo from '../../components/about/LeadTwo';
+import Team from '../../components/about/Team';
 
 var i ;
 var styles = {
   body: {
       backgroundColor: '#edecec',
-      color: '#ffffff',
+      color: '#252525',
       margin: 0,
-      fontFamily: 'Roboto'
+      fontFamily: 'Inter'
   }
 } 
 
@@ -23,14 +26,25 @@ componentDidUnmount(){
     }
 }
 render (){
-  return null
-}
-}
-
-const about= (props) => {
   return (
     <div className="pageTwo">
-      
+      <div className="page">
+  <section className="Headline">
+    <Headline/>
+  </section>
+  <section classname="Lead">
+    <Lead/>
+  </section>
+  <section className="LeadTwo">
+    <LeadTwo/>
+  </section>
+  <section className="Team">
+    <Team />
+  </section>
+  
+</div>
     </div>
   );
 }
+}
+

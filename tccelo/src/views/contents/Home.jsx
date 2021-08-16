@@ -1,7 +1,7 @@
 import * as React from 'react';
-import TextBox from '../../components/TextBox';
-import DescriptionBox from '../../components/DescriptionBox';
-import CreateAccount from '../../components/CreateAccount';
+import TextBox from '../../components/home/TextBox';
+import DescriptionBox from '../../components/home/DescriptionBox';
+import CreateAccount from '../../components/home/CreateAccount';
 
 
 var i;
