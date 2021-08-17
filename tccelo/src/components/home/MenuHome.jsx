@@ -8,7 +8,6 @@ export default (props) => {
     <nav>
         <a class="logo" href="/">elo</a>
         <ul>
-            
             <li>
                 <NavLink activeStyle={{ color: 'white' }} id="activeHome" exact to="/">Home</NavLink>
             </li>
@@ -27,8 +26,6 @@ export default (props) => {
         <div className="notifications">
             <a class="noti" href="#">2</a>
         </div>
-        
     </nav>
   </div>
-  )
-};
+  )};
