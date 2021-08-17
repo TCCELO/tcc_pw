@@ -2,7 +2,7 @@ import * as React from 'react';
 import TextBox from '../../components/home/TextBox';
 import DescriptionBox from '../../components/home/DescriptionBox';
 import CreateAccount from '../../components/home/CreateAccount';
-
+import MenuHome from '../../components/home/MenuHome';
 
 var i;
 var styles = {
@@ -11,6 +11,9 @@ var styles = {
       color: '#ffffff',
       margin: 0,
       fontFamily: 'Roboto'
+  },
+  html: {
+    margin: 0,
   }
 } 
 
@@ -28,6 +31,9 @@ componentDidUnmount(){
 render (){
   return (
   <div className="page">
+  <section className="MenuHome">
+        <MenuHome/>
+  </section>
   <section className="Textbox">
     <TextBox/>
   </section>
@@ -37,7 +43,10 @@ render (){
   <section className="CreateAccount">
     <CreateAccount/>
   </section>
-  
-</div>);
+  <br/>
+  <br/>
+  <br/>
+  </div>
+  );
 }
 }

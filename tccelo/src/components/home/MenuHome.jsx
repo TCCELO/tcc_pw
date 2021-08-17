@@ -1,5 +1,5 @@
 import React from 'react';
-import './Menu.css';
+import './MenuHome.css';
 import { Link, NavLink} from 'react-router-dom'
 
 export default (props) => {
@@ -10,7 +10,7 @@ export default (props) => {
         <ul>
             
             <li>
-                <NavLink activeStyle={{ color: 'white' }} exact to="/">Home</NavLink>
+                <NavLink activeStyle={{ color: 'white' }} id="activeHome" exact to="/">Home</NavLink>
             </li>
             <li>
                 <NavLink activeStyle={{ color: 'white' }} to="/Planos">Planos</NavLink>

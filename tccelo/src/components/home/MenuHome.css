@@ -1,10 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Roboto:wght@400;700&display=swap');
 
+*{
+
+    box-sizing: border-box;
+}
 .menu{
     display: flex;
-    flex-basis: 1000px;
     background-color: transparent;
-    align-items: center;
+    margin:auto;
 }
 .logo {
     text-decoration:none;
@@ -20,7 +23,7 @@
     font-size: 11.5px;
     transition: all ease 0.2s;
     margin-left: 37%;
-   
+    align-items: center;
 }
 .news {
     flex:1;
@@ -29,7 +32,7 @@
     font-size: 11.5px;
     transition: all ease 0.2s;
     margin-left: 7%;
-    
+    align-items: center;
 }
 .noti {
     flex:1;
@@ -37,7 +40,7 @@
     text-decoration:none;
     font-size: 11.5px;
     transition: all ease 0.2s;
-    
+    align-items: center;
 }
 .notifications{
     border:2px solid #FFB422;
@@ -47,21 +50,24 @@
     padding-inline: 1.15%;
     align-items: center;
     color:#fff;
+    align-items: center;
 }
 .menu nav{
     
-    align-items: center;
     display: flex;
     font-family: 'Roboto', sans-serif;
     font-weight: 600;
     margin-top: 4vh;
+    align-items: center;
 }
 .menu ul{
-    margin-left: 32.5%;
+    margin-left: 31%;
     list-style:none;
     display: flex;
+    
 }
 .menu li{
+    margin-right: 3.6%;
     position: relative;
     display: flex;
     font-weight: regular;
@@ -70,6 +76,8 @@
     
 }
 .menu li a{
+    
+    position: relative;
     flex:1;
     color:#838383;
     text-decoration:none;
@@ -84,4 +92,15 @@
 .login:hover{
     color:#fff;
     transform: scale(1.1);
+}
+#activeHome:after{
+    content: "";
+    position: absolute;
+    background-color:#FFB422;
+    height: 6px;
+    width: 6px;
+    border-radius: 3px;
+    left:13px;
+    bottom:-13px;
+    
 }
